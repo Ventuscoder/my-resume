@@ -1,0 +1,11 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
