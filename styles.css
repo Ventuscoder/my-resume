@@ -2,19 +2,54 @@
     font-family: 'Roboto Mono', consolas, monospace;
 }
 
-.container {
+body {
+    margin: 0;
+}
+
+.container-one, .container-two {
     margin: 0 auto;
-    width: 80%;
+}
+
+.container-one {
+    background-color: #57C5B6;
+    margin-top: 0;
 }
 
 .intro-text, .check-h2, .skills-header-h2 {
     text-align: center;
 }
 
-table {
+.intro-text {
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+.check-h2 {
+    padding: 1%;
+}
+
+.skills-header-h2 {
+    padding: 1%;
+}
+
+.my-face {
+    display: block;
     margin: 0 auto;
+}
+
+hr {
+    width: 80%;
+}
+
+.skills-table {
+    margin: 0 auto 5%;
 }
 
 a {
     text-decoration: none;
+}
+
+.container-bottom {
+    text-align: center;
+    padding: 2%;
 }
