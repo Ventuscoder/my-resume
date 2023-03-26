@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto Mono', consolas, monospace;
+    color: #002B5B;
 }
 
 body {
@@ -13,19 +13,30 @@ body {
 .container-one {
     background-color: #57C5B6;
     margin-top: 0;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .intro-text, .check-h2, .skills-header-h2 {
     text-align: center;
 }
 
-.intro-text {
-    padding-top: 5px;
+.hi {
+    padding-top: 15px;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.intro-text {
+    font-size: 2.5rem;
 }
 
 .check-h2 {
-    padding: 1%;
+    padding-bottom: 3%;
 }
 
 .skills-header-h2 {
@@ -35,14 +46,47 @@ body {
 .my-face {
     display: block;
     margin: 0 auto;
+    width: 30%;
 }
 
 hr {
     width: 80%;
+    margin: 10px auto;
 }
 
-.skills-table {
-    margin: 0 auto 5%;
+.container-two {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.skills-row {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.skill-header {
+    color: #1a5f7a;
+}
+
+.skill-img {
+    width: 200px;
+    margin: auto 0;
+}
+
+.skill-img-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.skill-img-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-desc {
+    padding: 20px;
+    vertical-align: middle;
 }
 
 a {
@@ -52,4 +96,5 @@ a {
 .container-bottom {
     text-align: center;
     padding: 2%;
+    font-family: 'Merriweather Sans', sans-serif;
 }
