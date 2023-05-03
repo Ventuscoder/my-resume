@@ -1,0 +1,31 @@
+/* Universal styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #2C74B3;
+    color: #0A2647;
+}
+
+/* Intro section */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.loading-text {
+    font-family: 'Open Tech Mono', monospace;
+    font-size: 25px;
+    margin: 20px 0;
+}
