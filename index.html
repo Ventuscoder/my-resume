@@ -3,66 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shivank Mitra</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container-one">
-        <h1 class="intro-text hi">I'm Shivank Mitra</h1>
-        <h1 class="intro-text name">...a programmer</h1>
-        <img src="images/happy.png" alt="My face" class="my-face">
-        <h2 class="check-h2">Check out <a href="portfolio.html">what I've made</a></h2>
+    <!-- Intro -->
+    <div class="intro">
+        <h1>Hi, I'm Shivank</h1>
+        <p class="loading-text">|</p>
+        <p class="scroll-ask">Scroll down 👇</p>
     </div>
-    <hr>
-    <div class="container-two">
-        <h2 class="skills-header-h2">My skills:</h2>
-        <div class="skills-row">
-            <img src="images/html.png" alt="HTML image" class="skill-img skill-img-left">
-            <div class="skill-desc">
-                <h3 class="skill-header">Creating web pages using HTML - ⭐⭐⭐⭐⭐</h3>
-                <p>I can create well-defined and customized web pages to display your content to deliver it to your audience</p>
-            </div>
-        </div>
-        <div class="skills-row">
-            <img src="images/css.png" alt="CSS image" class="skill-img skill-img-right">
-            <div class="skill-desc">
-                <h3 class="skill-header">Styling your content using CSS - ⭐⭐⭐⭐</h3>
-                <p>I can style your content to visually attract your audience and to provide a clean and authentic look</p>
-            </div>
-        </div>
-        <div class="skills-row">
-            <img src="images/javascript.png" alt="JS image" class="skill-img skill-img-left">
-            <div class="skill-desc">
-                <h3 class="skill-header">Scripting Algorithms and Data Structures using JavaScript - ⭐⭐⭐⭐</h3>
-                <p>I can write clean JavaScript code, for solving your problems in a structured manner</p>
-            </div>
-        </div>
-        <div class="skills-row">
-            <img src="images/backend.png" alt="Backend image" class="skill-img skill-img-right">
-            <div class="skill-desc">
-                <h3 class="skill-header">Setting up a server using Node.js and Express - ⭐⭐⭐⭐</h3>
-                <p>I can make a backend for your application using Node.js and the Express.js framework to perform CRUD operations and authentication along with database integration</p>
-            </div>
-        </div>
-        <div class="skills-row">
-            <img src="images/react.png" alt="Frontend image" class="skill-img skill-img-left">
-            <div class="skill-desc">
-                <h3 class="skill-header">Creating single-page applications using ReactJS - ⭐⭐⭐</h3>
-                <p>I can make interactive, single-page applications using ReactJS, a modern JavaScript framework widely used by developers around the globe and developed by FaceBook</p>
-            </div>
+
+    <!-- Description -->
+    <div class="description">
+        <h2>More about me 📖</h2>
+        <div class="about">
+            <p>I live in <b>Mumbai</b>. 
+                As a teenager, coding has become my passion. I <b>LOVE</b> building projects. 
+                I am always on the lookout for learning and using new technologies, langugages and frameworks to boost my programming skills. 
+                After coding for more than <i>3 years</i> and building <i>15+ projects</i>, I can confidently say that I'm a <b>full-stack developer</b>. 
+                Apart from that, I love playing basketball 🏀!
+            </p>
+            <img src="images/avatar.png" alt="My avatar" class="avatar">
         </div>
     </div>
-    <hr>
-    <div class="container-bottom">
-        <p>©️ Shivank Mitra</p>
-        <a href="https://www.flaticon.com/free-icons/man" title="man icons">Man icons created by Smashicons - Flaticon</a>
+
+    <!-- Toolset -->
+    <div class="toolset">
+        <h2>My programming kit 🔨</h2>
+        <h3>Languages</h3>
+        <div class="grid">
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>HTML</p>
+            <p>Python</p>
+        </div>
+        <h3>Frameworks and Libraries</h3>
+        <div class="grid">
+            <p>NodeJS</p>
+            <p>ReactJS</p>
+            <p>ExpressJS</p>
+            <p>Passport.js</p>
+            <p>Mongoose.js</p>
+            <p>BootStrap CSS</p>
+        </div>
+        <h3>Tools</h3>
+        <div class="grid">
+            <p>VS Code</p>
+            <p>Git and GitHub</p>
+            <p>Terminal</p>
+            <p>MongoDB Atlas</p>
+            <p>Firebase Hosting</p>
+            <p>Render</p>
+        </div>
     </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <h2>Projects 💻</h2>
+        <div class="pj-grid">
+            <div class="item">
+                <h3>To-do List</h3>
+                <hr>
+                <p>A todo list made using NodeJS containing the core CRUD features (create, read, update, delete). 
+                    Uses Google authentication with Passport.js to sign into your account and fetches your todos from a Mongoose database.
+                </p>
+                <button><a href="https://to-do-list-p0qq.onrender.com/" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/to-do-list" target="_blank">Code</a></button>
+            </div>
+            <div class="item other">
+                <h3>Maths Game Server</h3>
+                <hr>
+                <p>A maths game built using NodeJS to improve your maths skills.
+                    Uses local app authentication using Passport.js.
+                    Saves your points after playing in a Mongoose database.
+                </p>
+                <button><a href="https://maths-game-server.onrender.com/" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/maths-game-server" target="_blank">Code</a></button>
+            </div>
+            <div class="item other">
+                <h3>Company landing page</h3>
+                <hr>
+                <p>A beautiful landing page made for an imaginary brand called "FitFuel Oats".
+                    Used BootStrap CSS to make this site responsive, aka, presentable on all devices.
+                </p>
+                <button><a href="https://ventuscoder.github.io/fitfuel-oats-landing-page/" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/fitfuel-oats-landing-page" target="_blank">Code</a></button>
+            </div>
+            <div class="item">
+                <h3>Etch-a-Sketch</h3>
+                <hr>
+                <p>Browser canvas made using JavaScript to spill your creativity.
+                    I must say, the toughest part of this project was scripting the logic.
+                    Many features like custom grid size, rainbow coloring, and shading.
+                </p>
+                <button><a href="https://ventuscoder.github.io/Etch-a-Sketch" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/Etch-a-Sketch" target="_blank">Code</a></button>
+            </div>
+            <div class="item">
+                <h3>Dictionary Web App</h3>
+                <hr>
+                <p>Web app made using ReactJS.
+                    Uses the DictionaryAPI to fetch word meanings, pronunciation audios and synonyms.
+                    Bonus theme-changing feature as well.
+                </p>
+                <button><a href="https://react-word-app.web.app/" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/word-info" target="_blank">Code</a></button>
+            </div>
+            <div class="item other">
+                <h3>Caeser Cipher web app</h3>
+                <hr>
+                <p>Web app made using ReactJS.
+                    Ciphers and deciphers text using the very popular Caeser Cipher.
+                    Self-made algorithm to perform this operation.
+                </p>
+                <button><a href="https://react-caesar-cipher.web.app/" target="_blank">Live demo ↗</a></button>
+                <button><a href="https://github.com/Ventuscoder/react-caesar-cipher" target="_blank">Code</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© Shivank Mitra</p>
+        <p><a href="https://shivankjshacker.hashnode.dev/" target="_blank">My blog</a></p>
+        <p>Connect at <a href="mailto:shivankcode@gmail.com" target="_blank">shivankcode@gmail.com</a></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
