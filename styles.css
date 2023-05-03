@@ -99,6 +99,25 @@ h3 {
 
 .projects h2 {
     text-align: center;
+    font-size: 30px;
+}
+
+/* Footer section */
+
+.footer {
+    text-align: center;
+    background-color: rgb(26, 27, 33);
+    color: white;
+    padding: 20px;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: teal;
 }
 
 /* Media queries */
