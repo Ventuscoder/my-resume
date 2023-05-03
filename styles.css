@@ -100,6 +100,41 @@ h3 {
 .projects h2 {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.pj-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.item {
+    padding: 15px;
+    color: white;
+    background-color: rgb(60, 198, 198);
+    border-radius: 15px;
+}
+
+.item p {
+    line-height: 1.5;
+}
+
+.other {
+    background-color: rgb(219, 219, 37);
+}
+
+button {
+    background-color: #0A2647;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Footer section */
@@ -109,6 +144,7 @@ h3 {
     background-color: rgb(26, 27, 33);
     color: white;
     padding: 20px;
+    margin-top: 50px;
 }
 
 .footer p {
@@ -160,7 +196,7 @@ h3 {
 
 }
 
-@media (width <= 400px) {
+@media (width <= 500px) {
 
     .description {
         margin: 0 8px;
@@ -175,11 +211,15 @@ h3 {
     }
     
     .grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 
     .projects {
         margin: 20px 8px;
+    }
+
+    .pj-grid {
+        grid-template-columns: 1fr;
     }
 
 }
