@@ -68,7 +68,7 @@ h2 {
 .toolset {
     display: flex;
     flex-direction: column;
-    margin: 20px 40px 0;
+    margin: 20px 40px;
     text-align: center;
 }
 
@@ -89,6 +89,16 @@ h3 {
     font-weight: 600;
     font-size: 16px;
     color: white;
+}
+
+/* Project section */
+
+.projects {
+    margin: 20px 40px;
+}
+
+.projects h2 {
+    text-align: center;
 }
 
 /* Media queries */
@@ -125,6 +135,10 @@ h3 {
         font-size: 18px;
     }
 
+    .projects {
+        margin: 20px;
+    }
+
 }
 
 @media (width <= 400px) {
@@ -143,6 +157,10 @@ h3 {
     
     .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects {
+        margin: 20px 8px;
     }
 
 }
